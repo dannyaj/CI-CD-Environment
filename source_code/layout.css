@@ -1,0 +1,175 @@
+html {
+	height: 100vh;
+}
+
+body {
+	font-family: Arial, WenQuanYi Zen Hei, Microsoft JhengHei, PMingLiU;
+	background-color: #EEEEEE;
+
+	margin: 0%;
+	padding: 0%;
+}
+
+header {
+	background-color: #222222;
+	color: #FFFFFF;
+
+	height: 45px;
+	width: auto;
+
+	padding: 5px;
+}
+
+nav {
+	background-color: #555555;
+	color: #FFFFFF;
+
+	height: 35px;
+	padding: 0px;
+}
+
+section {
+	min-height: 85vh;	
+ 	width: 800px;
+	background-color: #FFFFFF;
+	margin: auto;
+
+}
+
+footer {
+	background-color: #222222;
+	color: #FFFFFF;
+
+	height: 35px;
+	width: auto;
+
+	margin: auto;
+	text-align: center;
+
+	padding: 5px;
+
+	float: bottom;
+}
+
+
+.btn {
+
+
+	border: none;
+	color: #FFFFFF;
+	padding: 50px 100px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #555555;
+}
+
+.btn:hover {
+	background-color: #CCCCCC;
+	color: #000000;
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #555555;
+	font-size: 16px;
+}
+
+li {
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+li.left {
+	float: left;
+}
+
+li.right {
+	float: right;
+}
+
+li u {
+	padding: 5px 16px;
+	display: block;	
+	text-decoration: none;
+}
+
+li a,a:link,a:visited{
+	padding: 5px 16px;
+	display: block;
+	color: #FFFFFF;	
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #CCCCCC;
+	color: #000000;
+}
+
+
+
+
+#button_link {
+	border-collapse:collapse;
+	border: 1px #777777 solid;	
+	background-color: #CCCCCC;
+	color: #000000;
+}
+
+#button_link:hover {
+	background-color: #555555; 
+	color: #FFFFFF;
+}
+
+#container {
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 800px;
+}
+
+#content {
+	border-collapse:collapse;
+	font-size: 14px;
+	border: 1px #777777 solid;
+	width: 700px;
+}
+
+#content td {
+	border: 1px #777777 solid;
+}
+
+#title {
+	background-color: #555555;
+	color: #FFFFFF;
+	height: 35px;
+}
+
+#subtitle {
+	background-color: #CCCCCC;
+	width: 100px;
+	height: 35px;
+}
+
+#input_block {
+	width: 350px;
+}
+
+#input_text {
+	height:100%;
+	width:95%;
+}
+
+#input_select {
+	height:100%; 
+	width:100%;
+}
+
+#input_textarea {
+	height:100px; 
+	width:98%;
+}
