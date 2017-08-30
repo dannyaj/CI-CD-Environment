@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: bendon-db
+  namespace: default
+  labels:
+    role: db
+spec:
+  replicas: 1
+  selector:
+    bendon: db
+  template:
+    metadata:
+      labels:
+        bendon: db
+    spec:
+      containers:
+      - name: bendon-db
+        image: postgres
+        env:
+        - name: POSTGRES_USER
+          value: user
+        - name: POSTGRES_PASSWORD
+          value: password
+        #args:
+        #- --cmd=nslookup kubernetes.default.svc.k8s.uat 127.0.0.1 >/dev/null
+        #ports:
+        #- containerPort: 8080
+        #  protocol: TCP
+
+
